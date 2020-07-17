@@ -41,7 +41,7 @@ def concaveman2d(points, hull, concavity=2.0, lengthThreshold=0.0):
     concave_points = concave_points.reshape((num_concave_points, 2))
     concave_points = concave_points.copy()
 
-    print('concave_points:', concave_points)
+    # print('concave_points:', concave_points)
 
     p_free[0](concave_points_c)
 
